@@ -22,7 +22,7 @@ $c -l min-brightness -d "Sets the minimum Brightness"
 
 $c -l playerctl -d "Shows Playerctl osd and runs the playerctl command" --require-parameter --no-files --arguments "play-pause play pause stop next prev shuffle"
 
-$c -l player -d "For which player to run the playerctl commands" --require-parameter --no-files --arguments "auto all"
+$c -l player -d "For which player to run the playerctl commands" --require-parameter --no-files --arguments "auto all shift unshift"
 $c -l player -d "For which player to run the playerctl commands" --require-parameter --no-files --arguments "(playerctl -l)"
 
 $c -l custom-message -d "Message to display"
